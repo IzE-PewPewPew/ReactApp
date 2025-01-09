@@ -1,0 +1,129 @@
+/* Cart.css */
+
+/* General Styles */
+body {
+    background-color: #fff; /* White background */
+  }
+  
+  .cart-page {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .cart-table {
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .cart-table table {
+    width: 100%;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+  }
+  
+  .cart-table thead tr {
+    background-color: #f7444e;
+    color: #fff;
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .cart-table img {
+    max-width: 80px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .product-close button {
+    background-color: #f7444e;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .product-close button:hover {
+    background-color: #e63946;
+  }
+  
+  /* Cart Button Styles */
+  .cart-btn .site-btn {
+    background-color: #f7444e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  .cart-btn .site-btn:hover {
+    background-color: #e63946;
+  }
+  
+  /* Shipping Section */
+  .shipping-info h5 {
+    color: #f7444e;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .cs-item label {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  .cs-item label.active {
+    background-color: #f7444e;
+    color: #fff;
+    border-color: #f7444e;
+  }
+  
+  .cs-item input {
+    display: none;
+  }
+  
+  /* Total Info */
+  .total-info {
+    margin-top: 30px;
+  }
+  
+  .total-table table {
+    width: 100%;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+  }
+  
+  .total-table th,
+  .total-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .primary-btn.chechout-btn {
+    background-color: #f7444e;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .primary-btn.chechout-btn:hover {
+    background-color: #e63946;
+  }
+  
